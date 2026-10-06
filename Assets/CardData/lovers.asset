@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fed7c421e1dda7c429406cedce0242ff, type: 3}
+  m_Name: lovers
+  m_EditorClassIdentifier: Assembly-CSharp::SoulBind.Card
+  cardId: lovers
+  cardName: The Lovers
+  element: 3
+  cardType: 1
+  effectDescription: Can be used to combo with another Lovers Card to increase ATK
+    by 2
+  atk: 4
+  def: 4
+  cap: 4
+  count: 3
+  effectType: 20
+  effectParams:
+    amount: 2
+    secondaryAmount: 0
+    rounds: 0
+    threshold: 0

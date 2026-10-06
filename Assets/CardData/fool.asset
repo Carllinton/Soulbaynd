@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fed7c421e1dda7c429406cedce0242ff, type: 3}
+  m_Name: fool
+  m_EditorClassIdentifier: Assembly-CSharp::SoulBind.Card
+  cardId: fool
+  cardName: The Fool
+  element: 0
+  cardType: 1
+  effectDescription: Reduce Corruption by 1, but also reduce DEF by 2
+  atk: 0
+  def: 0
+  cap: 0
+  count: 6
+  effectType: 1
+  effectParams:
+    amount: 1
+    secondaryAmount: 2
+    rounds: 0
+    threshold: 0
